@@ -1,0 +1,257 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(43, 67, 103);
+    font-family: verdana;
+}
+.outer
+{
+    margin: 0px;
+    position: sticky;
+    top: 20;
+}
+
+.nav
+{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border: hidden;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 5px black;
+}
+
+.nav ul
+{
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.nav ul li
+{
+    float: left;
+}
+
+.nav ul li a
+{
+    display: block;
+    padding: 10px;
+    float: left;
+    height: 30px;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    min-width: 170px;
+}
+
+.nav ul li a:hover
+{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.sub_menu
+{
+    margin-top: 50px;
+    clear: both;
+}
+
+.sub_menu li
+{
+    display: none;
+    clear: both;
+    float: none;
+    position: relative;
+    box-shadow: 0px 0px 5px black;
+    background: rgba(200, 200, 200, 0.5);
+}
+
+.nav ul li:hover>ul li
+{
+    background: rgba(0, 0, 0, 0.7);
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile a
+{
+    width: 50;
+}
+
+.profile img
+{
+    height: 30px;
+    border: hidden;
+    border-radius: 30px;
+}
+
+
+/* ------------footer design-------------*/
+footer 
+{
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    bottom: 0px;
+}
+
+footer .row 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .useful_link,
+footer .other_projects,
+footer .contact_with_us
+{
+    margin-right: 20px;
+}
+
+footer h4 
+{
+    color: rgb(177, 177, 177);
+}
+
+footer ul 
+{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li 
+{
+    margin-bottom: 5px;
+}
+
+footer a 
+{
+    text-decoration: none;
+    color: rgb(84, 82, 82); /* Change the color as needed */
+}
+
+footer .follow_us img 
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+footer hr 
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid rgb(162, 161, 161);
+}
+
+/* --------after hr design-------- */
+.after_hr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: rgb(162, 161, 161);
+}
+
+
+/* -------------profile.html---------------*/
+table
+{
+    margin: 0px;
+    height: 500px;
+}
+.my_profile img
+{
+    margin-top: 70px;
+    margin-left: 150px;
+    height: 300px;
+    border-radius: 150px;
+    box-shadow: 0px 0px 10px rgb(20, 19, 19);
+}
+.my_profile h1
+{
+    margin-left: 120px;
+    font-size: 50px;
+    color: rgb(196, 206, 220);
+}
+.about_me
+{
+    margin-top: 50px;
+    width: 600px;
+    padding-left: 160px;
+    color: rgb(132, 136, 142);
+    text-align: justify;
+}
+.about_me fieldset
+{
+    padding: 40px;
+}
+legend
+{
+
+    color: white;
+    font-size: 30px;
+    font-weight: 150%;
+}
+
+/* --------------Same content design------------------*/
+
+.content
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: Arial;
+    color: rgb(223, 223, 223);
+}
+.content h1
+{
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+.sub_content
+{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.sub_content h1
+{
+    color: rgb(195, 186, 186);
+}
+
+
+/* ------------html assignment design-------------*/
+
+.assign
+{
+    width: 40%;
+    margin-left: 50px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+.assign h3
+{
+    color: black;
+}
+.assign ul
+{
+    margin: 0px;
+}
+.assign ul li
+{
+    list-style: none;
+}
+.assign ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 0, 123);
+}

@@ -1,0 +1,52 @@
+.rahul{
+    color: blue;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+}
+.sheetal{
+    color: blueviolet;
+    text-align: right;
+    text-align-last: center;
+    text-transform: lowercase;
+    text-indent: 100px;
+    line-height: 30px;
+    word-spacing: 40px;
+}
+.abc{
+    color: aqua;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-transform: uppercase;
+}
+.a{
+    text-decoration-line: overline;
+    text-decoration-color: aqua;
+    text-decoration-style: solid;
+    text-decoration-thickness: -25%;
+    text-shadow: 3px 3px 3px pink;
+}
+.b{
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+.c{
+    text-decoration-line: line-through;
+    text-decoration-color: cadetblue;
+    text-decoration-style: dotted;
+}
+.d{
+    text-decoration-line: overline underline;
+    text-decoration-color: cornflowerblue;
+    text-decoration-style: dashed;
+}
+.e{
+    text-decoration-line: overline underline;
+    text-decoration-color: cornflowerblue;
+    text-decoration-style: wavy;
+}
+.f{
+    text-decoration: underline red wavy 5px;
+}
